@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(83, 134, 156);
+}
+
+
+/* table style */
+table{
+    border: 2px solid black;
+    width: 900px;
+    background-color:rgb(221, 232, 238);
+    border-radius: 5px;
+}
+tr{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+}
+th{
+    border: 2px solid black;
+}
+input{
+    margin: 5px;
+}
+#outer{
+    display: flex;
+}
+#disuserid{
+    width: 200px;
+}
+
+/* other option boxes style */
+
+#newuser{
+    border: 2px solid rgb(100, 100, 100);
+    width: 370px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color:rgb(221, 232, 238);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(15, 15, 15);
+}
+#userfind{
+    border: 2px solid rgb(100, 100, 100);
+    width: 370px;
+    height: 250px;
+    margin-left: 30px;
+    text-align: center;
+    background-color:rgb(221, 232, 238);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(15, 15, 15);
+}
+#userupdate{
+    border: 2px solid rgb(100, 100, 100);
+    width: 370px;
+    height: 250px;
+    margin-left: 30px;
+    text-align: center;
+    background-color:rgb(221, 232, 238);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(15, 15, 15);
+}
+
+/* button style and hover style */
+
+#btn1{
+    border-radius: 5px;
+    border:  2px solid rgb(152, 152, 152);
+    width: 60px;
+}
+#btn2{
+    border-radius: 5px;
+    border:  2px solid rgb(152, 152, 152);
+    width: 60px;
+}
+#btn4{
+    border-radius: 5px;
+    border:  2px solid rgb(152, 152, 152);
+    width: 130px;
+}
+#btn5{
+    border-radius: 5px;
+    border:  2px solid rgb(152, 152, 152);
+    width: 60px;
+}
+#btn6{
+    border-radius: 5px;
+    border:  2px solid rgb(152, 152, 152);
+    width: 130px;
+}
+
+
+#btn1:hover{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+#btn2:hover{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+#btn3:hover{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+#btn4:hover{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+#btn5:hover{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+#btn6:hover{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+/* footer */
+
+#footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(14, 14, 14);
+   color: white;
+   text-align: center;
+}

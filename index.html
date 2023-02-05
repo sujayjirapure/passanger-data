@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>passanger data</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <link rel="icon" type="image/x-icon" href="./fevicon3.jpg">
+        
+    </head>
+    <body onload="passangerlist()">
+        <div id="outer">
+            <div id="newuser">
+                <h2>Create new user</h2>
+                Enter name:- <input type="text" id="username"/><br>
+                Enter trip:- <input type="text" id="tripno"/><br>
+                Enter airline ID :- <input type="text" id="airlineid"/><br>
+                <input type="button" value="Create user" id="btn4" onclick="passcreate()"/>
+            </div>
+            <div id="userfind">
+                <h2>User serach by ID</h2>
+                Enter user ID:-<input type="text" id="searchbyname"/>
+                <input type="button" id="btn5" onclick="searchbyid()" value="Search"/>
+                <div id="disairplaneid"></div>
+                <div id="disname"></div>
+                <div id="distrip"></div>
+                <div id="disairplane"></div>
+                <div id="dislogos"></div>
+            
+            </div>
+            <div id="userupdate">
+                <h2>Update user </h2>
+                ID :- <input type="text" id="disuseridtwo" readonly/><br>
+                Enter new name:-<input type="text" id="updateusername" /><br>
+                Enter new trips:-<input type="text" id="updateusertrips" /><br>
+                Enter new airline ID:-<input type="text" id="updateuserairlineid" /><br>
+                <input type="button" id="btn6" onclick="updatenamebyid()" value="Update"/>
+            </div>
+        </div>
+        <br>
+        Please wait for few seconds...
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Trip</th>
+                <th>Airline ID</th>
+                <th>Airline Name</th>
+                <th>logo</th>
+                <th>Airline Country</th>
+                <th>Established year</th>
+                <th>options</th>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+        <div id="footer">
+            Created by : Sujay S. jirapure
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
